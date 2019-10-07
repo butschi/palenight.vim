@@ -41,8 +41,8 @@ let s:p.tabline.right   = [ [ s:p_black, s:p_yellow ] ]
 let s:p.tabline.middle  = [ [ s:p_black, s:p_menu_grey ] ]
 let s:p.tabline.tabsel  = copy(s:p.tabline.right)
 
-let s:p.inactive.left   = [ [ s:p_black, s:p_menu_grey ], [ s:p_black, s:p_menu_grey ] ]
+let s:p.inactive.left   = [ [ s:p_white, s:p_menu_grey ], [ s:p_white, s:p_menu_grey ] ]
 let s:p.inactive.right  = copy(s:p.inactive.left)
-let s:p.inactive.middle = [ [ s:p_black, s:p_menu_grey ] ]
+let s:p.inactive.middle = [ [ s:p_white, s:p_menu_grey ] ]
 
 let g:lightline#colorscheme#palenight#palette = lightline#colorscheme#flatten(s:p)
